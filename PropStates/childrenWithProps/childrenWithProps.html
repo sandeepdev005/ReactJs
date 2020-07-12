@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://unpkg.com/react@16.7.0/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/prop-types@15.6/prop-types.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
+    <style>
+        .container {
+            border: solid 1px yellow;
+            width: 500px;
+            padding: 15px;
+        }
+
+        .red{
+            color: red;
+        }
+
+        .green{
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container" id="outer-1"></div>
+    <div class="container" id="outer-2"></div>
+    <div class="container" id="outer-3"></div>
+    <script type='text/babel' src="childrenWithProps.js"></script>
+</body>
+
+</html>

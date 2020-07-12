@@ -1,0 +1,76 @@
+
+html {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+body{
+  margin:0;
+  padding:0;
+}
+
+.container-dark-theme-color{
+  background-color: #282c34
+}
+
+.container{
+  max-width: 1260px;
+  width:90%;
+  margin:auto;
+}
+
+.section-1-content{}
+
+.section-spacing{
+  padding-left:20px;
+  padding-right:20px;
+  margin-left:auto;
+  margin-right:auto;
+  
+/* min-width: 1280px   
+  padding-top: 95px;
+padding-bottom: 85px;
+max-width: 1500px; */
+  
+  /* minwidth 600   */
+  padding-top:60px;
+  padding-bottom:70px;
+  text-align:center;
+}
+
+.section-spacing h1{
+  font-size :60px;
+  color: #61dafb;
+  padding-top: 20px;;
+   margin:0;
+   font-weight: 400;
+   font-style: bold;
+}
+
+.section-spacing  p{
+  color: white;
+  padding-top:20px;
+  font-size:30px;
+  letter-spacing: 0.01em;
+  line-height: 1.15;
+}
+
+.section-button-link{
+  background-color: #61dafb;
+color: black;
+padding: 13px 27px;
+text-decoration: none;
+margin-right: 20px;
+font-size: 20px;
+
+}
+
+.section-link{
+  text-decoration: none;
+  color: #61dafb;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.title_section_button{
+  padding:40px 0;
+}

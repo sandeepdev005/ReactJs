@@ -1,0 +1,190 @@
+body{
+  background:black;
+}
+
+.container{
+  background:grey;
+}
+
+
+.form-row{
+  padding : 10px 5px;
+  display:flex
+}
+
+.form-row label{
+  padding-right :10px;
+}
+
+.form-row input {
+   flex : 1 
+}
+ 
+.container-form{
+    width:80%;
+   background:white;
+  margin:auto
+}
+
+/* column layout */
+.column-layout{
+  background:white;
+  max-width:1300px;
+  margin: 40px auto 0 auto;
+  line-height:1.65;
+  padding: 20px 50px;
+  display :flex;
+}
+
+.column-main{
+  flex:3;
+  order:2;
+}
+
+.column-sideleft{
+  flex:1;
+  order:1;
+}
+
+.column-rightside{
+  flex: 1;
+  order:3;
+}
+
+.call-out-container{
+  max-width:1400px;
+  margin :40px auto 0 auto;
+  
+}
+
+@media(min-width : 900px){
+  .call-out-container{
+  display: flex;
+ /* this is default no need to write   */
+  align-items:streach;
+  justify-content:space-between;  
+  }
+}
+
+.call-out-container-center{
+   max-width:1400px;
+  margin :40px auto 0 auto;
+  display: flex;
+  align-items:center;
+}
+
+.call-out-container-start{
+   max-width:1400px;
+  margin :40px auto 0 auto;
+  display: flex;
+  align-items:flex-start;
+}
+
+.call-out-container-end{
+   max-width:1400px;
+  margin :40px auto 0 auto;
+  display: flex;
+  align-items:flex-end;
+}
+
+
+
+.call-out{
+  padding: 20px;
+  
+  margin-bottom:20px;
+  /* this is imp when giving fixed width   */
+  box-sizing : border-box;
+  /*  should not used  width:30%; it is not best practise */
+  flex-basis : 30%;
+}
+
+.call-out:nth-child(1){background-color:#c0dbe2}
+
+.call-out:nth-child(2){background-color:#cdf1c3}
+
+.call-out:nth-child(3){background-color:#ccb9da}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box-list {
+ max-width:1400px;
+  margin: 40px auto 0 auto;
+  background:white;
+  padding : 30px 0;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+
+ .box{
+  width:150px;
+   height:100px;
+   background:red;
+   text-align :center;
+   font-weight:bold;
+   font-size:60px;
+   color:white;
+   line-height:100px;
+   margin-bottom :20px;
+}
+
+.banner{
+  width:700px;
+  height:400px;
+  margin : 40px auto 40px auto;
+  background:black;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.center-text{
+  
+}
+
+
+
+
+.row-column-container{
+  max-width: 900px;
+  margin : 0 auto;
+  display:flex;
+}
+
+.first{
+  background-color:white;
+  padding : 20px;
+  flex:1;
+}
+
+.second{
+   background-color:yellow;
+   display: flex;
+   flex-direction:column;
+   flex:1;
+}
+
+.second-a{
+   background-color:red;
+  flex:1;
+}
+
+.second-b{
+  background-color:#c0dbe2;
+  flex: 1;
+}
